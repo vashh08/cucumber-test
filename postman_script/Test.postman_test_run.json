@@ -1,0 +1,241 @@
+{
+	"id": "ec00116e-9af8-427b-b507-872a921300a7",
+	"name": "Test",
+	"timestamp": "2021-07-11T06:50:54.707Z",
+	"collection_id": "4f3a6584-da88-46a4-9b67-8ce199ce6f1c",
+	"folder_id": 0,
+	"environment_id": "aab370e9-d3e7-4e15-862d-eff0ad364fdf",
+	"totalPass": 8,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "d34ce1a4-d883-4224-92c4-bf17d7fb01dd",
+			"name": "Register Success ",
+			"url": "https://reqres.in/api/register",
+			"time": 525,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"registration": true,
+				"has token": true
+			},
+			"testPassFailCounts": {
+				"registration": {
+					"pass": 1,
+					"fail": 0
+				},
+				"has token": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				525
+			],
+			"allTests": [
+				{
+					"registration": true,
+					"has token": true
+				}
+			]
+		},
+		{
+			"id": "f4c977f5-fdaf-4927-a081-6517b103af36",
+			"name": "Register Fail",
+			"url": "https://reqres.in/api/register",
+			"time": 464,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"registration failed": true
+			},
+			"testPassFailCounts": {
+				"registration failed": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				464
+			],
+			"allTests": [
+				{
+					"registration failed": true
+				}
+			]
+		},
+		{
+			"id": "900740b1-3678-4d04-bdb6-2120adc778a7",
+			"name": "Get User Success",
+			"url": "https://reqres.in/api/users/2",
+			"time": 125,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get user success": true
+			},
+			"testPassFailCounts": {
+				"Get user success": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				125
+			],
+			"allTests": [
+				{
+					"Get user success": true
+				}
+			]
+		},
+		{
+			"id": "4bd6867d-484f-4c98-98f9-00605d6ec36d",
+			"name": "Get User Not Found",
+			"url": "https://reqres.in/api/users/23",
+			"time": 481,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Get user not found": true
+			},
+			"testPassFailCounts": {
+				"Get user not found": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				481
+			],
+			"allTests": [
+				{
+					"Get user not found": true
+				}
+			]
+		},
+		{
+			"id": "733cab02-d90e-4489-b20c-1904da23361c",
+			"name": "Edit User",
+			"url": "https://reqres.in/api/users/2",
+			"time": 588,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Edit User": true
+			},
+			"testPassFailCounts": {
+				"Edit User": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				588
+			],
+			"allTests": [
+				{
+					"Edit User": true
+				}
+			]
+		},
+		{
+			"id": "9020a2ad-3f9e-4963-a048-78bf04adeb6f",
+			"name": "Edit User Patch",
+			"url": "https://reqres.in/api/users/2",
+			"time": 468,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Edit User": true
+			},
+			"testPassFailCounts": {
+				"Edit User": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				468
+			],
+			"allTests": [
+				{
+					"Edit User": true
+				}
+			]
+		},
+		{
+			"id": "34d13e16-9e71-418e-9971-e341ff5815a0",
+			"name": "Delete User",
+			"url": "https://reqres.in/api/users/2",
+			"time": 505,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Delete User": true
+			},
+			"testPassFailCounts": {
+				"Delete User": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				505
+			],
+			"allTests": [
+				{
+					"Delete User": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3156,
+	"collection": {
+		"requests": [
+			{
+				"id": "d34ce1a4-d883-4224-92c4-bf17d7fb01dd",
+				"method": "POST"
+			},
+			{
+				"id": "f4c977f5-fdaf-4927-a081-6517b103af36",
+				"method": "POST"
+			},
+			{
+				"id": "900740b1-3678-4d04-bdb6-2120adc778a7",
+				"method": "GET"
+			},
+			{
+				"id": "4bd6867d-484f-4c98-98f9-00605d6ec36d",
+				"method": "GET"
+			},
+			{
+				"id": "733cab02-d90e-4489-b20c-1904da23361c",
+				"method": "PUT"
+			},
+			{
+				"id": "9020a2ad-3f9e-4963-a048-78bf04adeb6f",
+				"method": "PATCH"
+			},
+			{
+				"id": "34d13e16-9e71-418e-9971-e341ff5815a0",
+				"method": "DELETE"
+			}
+		]
+	}
+}
